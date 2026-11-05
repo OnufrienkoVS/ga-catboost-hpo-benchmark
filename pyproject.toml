@@ -1,0 +1,31 @@
+[project]
+name = "ga-catboost-hpo-benchmark"
+version = "0.1.0"
+description = "Benchmarking genetic algorithm, TPE, and random search for CatBoost hyperparameter optimization."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "catboost",
+    "deap",
+    "matplotlib",
+    "numpy",
+    "optuna",
+    "pandas",
+    "scikit-learn",
+    "seaborn",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "jupyter",
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
