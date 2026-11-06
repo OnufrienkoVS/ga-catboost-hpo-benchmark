@@ -26,3 +26,6 @@ results/figures/*
 # word docs and logs
 *.docx
 *.log
+
+# temp files
+USAGE.md
