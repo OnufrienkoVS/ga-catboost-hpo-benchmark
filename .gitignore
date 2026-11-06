@@ -23,5 +23,6 @@ results/figures/*
 !results/processed/.gitkeep
 !results/figures/.gitkeep
 
-# word docs
+# word docs and logs
 *.docx
+*.log
